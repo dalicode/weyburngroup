@@ -1,0 +1,51 @@
+.Gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px 15px;
+  grid-gap: 5px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.ImageWrap {
+  position: relative;
+  transition: 0.5s;
+}
+
+.ImageWrap p{
+  margin: 0;
+  position: absolute;
+  padding-top: 33%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 25px;
+
+  /* transition effect. not necessary */
+  transition: opacity .5s, visibility .2s;
+}
+
+.ImageWrap:hover p {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ImageWrap:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .Gallery {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}

@@ -1,0 +1,14 @@
+.Home {
+
+}
+
+.LeftHeader {
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    color: gray;
+    padding-bottom: 20%;
+}

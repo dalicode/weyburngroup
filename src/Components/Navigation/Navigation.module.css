@@ -1,0 +1,36 @@
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.navMenu {
+    height: 80px;
+}
+
+.logo {
+    position: absolute;
+    height: 50px;
+    left: 15px;
+    top: 15px;
+}
+
+.NavLink{
+    text-decoration: none;
+    color: gray;
+    line-height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:1s;
+  padding: 8px;
+}
+
+.NavLink:hover{
+    cursor: pointer;
+    color: black;
+}

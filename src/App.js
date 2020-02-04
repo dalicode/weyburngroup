@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navigation from './Components/Navigation/Navigation'
 import './App.css';
+import Home from './Components/Home/Home';
+import Contact from './Components/Contact/Contact';
+import OurStory from './Components/Our Story/OurStory';
+import Process from './Components/Process/Process';
+import { Switch, Route } from 'react-router-dom';
+import Footer from './Components/Footer/Footer';
+import GalleryPage from './Components/Gallery/GalleryPage/GalleryPage'
+import { AnimatedSwitch } from 'react-router-transition';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation/>
+      <AnimatedSwitch
+      atEnter={{ opacity: 0 }}
+      atLeave={{ opacity: 0 }}
+      atActive={{ opacity: 1 }}
+      className="switch-wrapper"
+    >
+              <Route exact path='/' component={Home} />
+              <Route path='/contact' component={Contact} />
+              <Route path='/ourstory' component={OurStory} />
+              <Route path='/process' component={Process} />
+              <Route path='/gallery' component={GalleryPage} />
+      </AnimatedSwitch>
+      <Footer/>
     </div>
+
+
   );
 }
 

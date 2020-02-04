@@ -1,0 +1,30 @@
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.footer li {
+    display: inline-block;
+    text-align: center;
+  }
+
+.footer img {
+    width: 30px;
+    padding: 5px;
+}
+
+.footer {
+    position: fixed;
+    height: 60px;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
