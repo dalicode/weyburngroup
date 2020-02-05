@@ -1,22 +1,33 @@
 .GalleryNav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .GalleryNav li {
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-    color: gray;
-    text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  color: gray;
+  text-transform: uppercase;
 }
 
-.GalleryNav{
-    position: fixed;
-    top: 80px;
-    left: 0px;
-    height: 100%;
-    width: 250px;
-    padding-top: 50px;
+.GalleryNav li:hover {
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+}
+
+.Active {
+  background-color: gold;
+  color: black;
+}
+
+.GalleryNav {
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  height: 100%;
+  width: 250px;
+  padding-top: 50px;
 }

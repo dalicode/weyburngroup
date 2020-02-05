@@ -8,9 +8,9 @@ const footer = () => {
   return (
       <div className={classes.footer}>
         <ul>
-          <li><img src={facebook}/></li>
-          <li><img src={twitter}/></li>
-          <li><img src={instagram}/></li>
+          <li><img src={facebook} alt="f"/></li>
+          <li><img src={twitter} alt="t"/></li>
+          <li><img src={instagram} alt="i"/></li>
         </ul>
       </div>
   );

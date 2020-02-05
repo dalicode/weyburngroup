@@ -10,20 +10,20 @@
 }
 
 .navMenu {
-    height: 80px;
+    height: 100px;
 }
 
 .logo {
     position: absolute;
-    height: 50px;
-    left: 15px;
-    top: 15px;
+    height: 100px;
+    left: -30px;
+    top: 0px;
 }
 
 .NavLink{
     text-decoration: none;
     color: gray;
-    line-height: 80px;
+    line-height: 100px;
   font-size: 20px;
   text-transform: uppercase;
   transition:1s;
