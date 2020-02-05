@@ -15,7 +15,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navMenu").style.padding = "30px 0px";
-    document.getElementById("logo").style.top = "-10px";
+    document.getElementById("logo").style.top = "0px";
   } else {
     document.getElementById("navMenu").style.padding = "50px 0px";
     document.getElementById("logo").style.top = "0px";

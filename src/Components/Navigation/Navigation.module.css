@@ -10,36 +10,60 @@
 }
 
 .navMenu {
-    padding: 50px 0px;
-    overflow: hidden;
+  padding: 50px 0px;
+  overflow: hidden;
   background-color: #ffffff;
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
   top: 0; /* At the top */
-  z-index: 99; 
+  z-index: 99;
 }
 
 .logo {
-    position: absolute;
-    height: 100px;
-    left: -30px;
-    top: 0px;
-    transition: 0.4s;
+  position: absolute;
+  height: 100%;
+  left: -30px;
+  top: 0px;
+  transition: 0.4s;
 }
 
-.NavLink{
-    text-decoration: none;
-    color: gray;
+.NavLink {
+  text-decoration: none;
+  color: gray;
   font-size: 20px;
   text-transform: uppercase;
-  transition:0.5s;
+  transition: 0.5s;
   padding: 8px;
   border-bottom: 2px solid transparent;
 }
 
-.NavLink:hover{
-    cursor: pointer;
-    color: black;
-    border-bottom: 2px solid gold;
+.NavLink:hover {
+  cursor: pointer;
+  color: black;
+  border-bottom: 2px solid gold;
+}
+
+.iconBar {
+  width: 50px;
+  display: none;
+  cursor: pointer;
+  margin-left:auto; 
+  margin-right:0;
+}
+
+@media only screen and (max-width: 650px){
+  .iconBar {
+    display: block;
+    float: right;
+    padding-right: 30px;
+    top: -10px;
+  }
+
+  .logo{
+    left: -50px;
+  }
+  .ul{
+    display: none;
+  }
 }
