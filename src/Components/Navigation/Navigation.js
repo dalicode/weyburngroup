@@ -13,7 +13,6 @@ const navigation = () => {
         </div>
         <ul className={classes.ul}>
           <li><Link className={classes.NavLink} to={'/'}> Home </Link></li>
-          <li><Link className={classes.NavLink} to={'/ourstory'}> Our Story </Link></li>
           <li><Link className={classes.NavLink} to={{
           pathname: '/gallery',
           state: {

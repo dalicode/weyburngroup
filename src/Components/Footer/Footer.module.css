@@ -1,21 +1,21 @@
 .footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    left: 50%;
-  }
-  
-.footer li {
-    display: inline-block;
-    text-align: center;
-  }
-
-.footer img {
-    width: 30px;
-    padding: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 50%;
 }
 
-.footer {
+.footer li {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer img {
+  width: 30px;
+  padding: 5px;
+}
+
+ .footer {
     position: fixed;
     height: 40px;
     left: 0;
@@ -24,4 +24,4 @@
   background-color: white;
   color: white;
   text-align: center;
-}
+} 
