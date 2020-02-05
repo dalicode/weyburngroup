@@ -10,7 +10,6 @@ class galleryPage extends Component {
 
   galleryNavSelectedHandler = ev => {
     this.setState({selected: ev.target.textContent})
-    console.log(ev.target.textContent);
   };
 
   render() {
