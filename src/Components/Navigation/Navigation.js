@@ -7,7 +7,7 @@ const navigation = () => {
   return (
       <div id="navMenu" className={classes.navMenu}>
       <div> 
-      <Link to={'/'}>
+      <Link to={'/weyburngroup'}>
         <img id="logo" className={classes.logo} src={logo} alt="logo"/> 
         </Link>
         </div>
