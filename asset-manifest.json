@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/weyburngroup/static/css/main.800e6c71.chunk.css",
+    "main.js": "/weyburngroup/static/js/main.da68c9eb.chunk.js",
+    "main.js.map": "/weyburngroup/static/js/main.da68c9eb.chunk.js.map",
+    "runtime-main.js": "/weyburngroup/static/js/runtime-main.8d49b500.js",
+    "runtime-main.js.map": "/weyburngroup/static/js/runtime-main.8d49b500.js.map",
+    "static/js/2.c97d7a30.chunk.js": "/weyburngroup/static/js/2.c97d7a30.chunk.js",
+    "static/js/2.c97d7a30.chunk.js.map": "/weyburngroup/static/js/2.c97d7a30.chunk.js.map",
+    "index.html": "/weyburngroup/index.html",
+    "precache-manifest.b3ade4160794565993b27398c1c1f312.js": "/weyburngroup/precache-manifest.b3ade4160794565993b27398c1c1f312.js",
+    "service-worker.js": "/weyburngroup/service-worker.js",
+    "static/css/main.800e6c71.chunk.css.map": "/weyburngroup/static/css/main.800e6c71.chunk.css.map",
+    "static/js/2.c97d7a30.chunk.js.LICENSE.txt": "/weyburngroup/static/js/2.c97d7a30.chunk.js.LICENSE.txt",
+    "static/media/construction.jpg": "/weyburngroup/static/media/construction.857ecc56.jpg",
+    "static/media/construction1.jpg": "/weyburngroup/static/media/construction1.50a9ddfa.jpg",
+    "static/media/facebook.svg": "/weyburngroup/static/media/facebook.06468580.svg",
+    "static/media/instagram.svg": "/weyburngroup/static/media/instagram.4c7ce1b0.svg",
+    "static/media/landscaping.jpg": "/weyburngroup/static/media/landscaping.15005531.jpg",
+    "static/media/landscaping1.jpg": "/weyburngroup/static/media/landscaping1.58c349a3.jpg",
+    "static/media/logo.svg": "/weyburngroup/static/media/logo.f5f6c3f4.svg",
+    "static/media/other.jpg": "/weyburngroup/static/media/other.b627c504.jpg",
+    "static/media/other1.jpg": "/weyburngroup/static/media/other1.fc7ae9f8.jpg",
+    "static/media/painting.jpg": "/weyburngroup/static/media/painting.004e69cc.jpg",
+    "static/media/painting1.jpg": "/weyburngroup/static/media/painting1.c8a5dee0.jpg",
+    "static/media/renovation.jpg": "/weyburngroup/static/media/renovation.359ab2db.jpg",
+    "static/media/renovation1.jpg": "/weyburngroup/static/media/renovation1.c841af19.jpg",
+    "static/media/roofing.jpg": "/weyburngroup/static/media/roofing.8b037215.jpg",
+    "static/media/roofing1.jpg": "/weyburngroup/static/media/roofing1.c841af19.jpg",
+    "static/media/twitter.svg": "/weyburngroup/static/media/twitter.631cd566.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d49b500.js",
+    "static/js/2.c97d7a30.chunk.js",
+    "static/css/main.800e6c71.chunk.css",
+    "static/js/main.da68c9eb.chunk.js"
+  ]
+}
