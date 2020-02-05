@@ -2,18 +2,26 @@ import React from "react";
 import classes from "./GalleryContent.module.css";
 import SubHeading from "../../../SubHeading/SubHeading";
 
+
 function importAll(r) {
   let images = {};
-  r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+  r.keys().forEach((item) => { images[item.replace('./', '')] = r(item); });
   return images;
 }
 
 const galleryContent = (props) => {
-  const images = importAll(require.context('../../../../assets/Construction', false, /\.(png|jpe?g|svg)$/));
+  let output = null;
+  let blah = "../../../../assets/construction";
+  console.log(props.active);
+  if(props.active !== "") {
+  const images = importAll(require.context(blah, false, /\.(png|jpe?g|svg)$/));
 
-  let output = Object.keys(images).map((image,index) => {
-  return (<img src = {images[image]} key={index} alt = {image} />);
-  })
+  output = Object.keys(images).map((image,index) => {
+    return (<img src = {images[image]} key={index} alt = {image} />);
+    })
+  }
+
+
 
   return (
     <div className={classes.GalleryContent}>
