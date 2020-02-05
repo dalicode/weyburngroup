@@ -10,7 +10,14 @@
 }
 
 .navMenu {
-    height: 100px;
+    padding: 50px 0px;
+    overflow: hidden;
+  background-color: #ffffff;
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99; 
 }
 
 .logo {
@@ -18,12 +25,12 @@
     height: 100px;
     left: -30px;
     top: 0px;
+    transition: 0.4s;
 }
 
 .NavLink{
     text-decoration: none;
     color: gray;
-    line-height: 100px;
   font-size: 20px;
   text-transform: uppercase;
   transition:0.5s;

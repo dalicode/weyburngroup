@@ -5,10 +5,10 @@ import {Link} from "react-router-dom";
 
 const navigation = () => {
   return (
-      <div className={classes.navMenu}>
+      <div id="navMenu" className={classes.navMenu}>
       <div> 
       <Link to={'/'}>
-        <img className={classes.logo} src={logo} alt="logo"/> 
+        <img id="logo" className={classes.logo} src={logo} alt="logo"/> 
         </Link>
         </div>
         <ul className={classes.ul}>
