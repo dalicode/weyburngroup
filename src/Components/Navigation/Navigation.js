@@ -15,7 +15,7 @@ const navigation = () => {
         <div className={classes.iconBar} onClick="Show()">
           <img src={menu} alt="menu"/>
         </div>
-        <ul id="navList" className={classes.ul}>
+        <ul className={classes.ul}>
           <li><Link className={classes.NavLink} to={'/weyburngroup'}> Home </Link></li>
           <li><Link className={classes.NavLink} to={{
           pathname: '/gallery',
