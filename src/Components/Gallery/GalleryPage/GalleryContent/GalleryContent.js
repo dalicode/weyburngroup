@@ -22,7 +22,7 @@ const galleryContent = (props) => {
   };
 
   return (
-    <div className={classes.GalleryContent}>
+    <div style={{textAlign:'right'}} className={classes.GalleryContent}>
      <SubHeading> Gallery </SubHeading>
       {output}
     </div>

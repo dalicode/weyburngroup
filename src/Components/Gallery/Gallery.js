@@ -13,45 +13,29 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+const varToString = varObj => Object.keys(varObj)[0]
+
+let services = [["construction", construction], ["painting", painting], ["renovation", renovation], ["landscaping", landscaping], ["other", other], ["roofing", roofing]];
+
+let output = services.map((service) => {
+  return (
+    <div className={classes.ImageWrap}>
+      <Link to={{
+          pathname: '/gallery',
+          state: {
+            active: service[0]
+          }}}>  
+        <img className={classes.image} src={service[1]}/>
+        <p> {service[0]} </p>
+        </Link>
+      </div>
+  )
+})
+
 const gallery = () => {
   return (
       <div className={classes.Gallery}>
-      <div className={classes.ImageWrap}>
-      <Link to={'/gallery'}>  
-        <img className={classes.image} src={construction}/>
-        <p> Construction </p>
-        </Link>
-      </div>
-      <div className={classes.ImageWrap}>
-      <Link to={'/gallery'}>  
-        <img className={classes.image} src={landscaping}/>
-        <p> landscaping </p>
-        </Link>
-      </div>
-      <div className={classes.ImageWrap}>
-      <Link to={'/gallery'}>  
-        <img className={classes.image} src={other}/>
-        <p> other </p>
-        </Link>
-      </div>
-      <div className={classes.ImageWrap}>
-      <Link to={'/gallery'}>  
-        <img className={classes.image} src={renovation}/>
-        <p> renovation </p>
-        </Link>
-      </div>
-      <div className={classes.ImageWrap}>
-      <Link to={'/gallery'}>  
-        <img className={classes.image} src={roofing}/>
-        <p> roofing </p>
-        </Link>
-      </div>
-      <div className={classes.ImageWrap}>
-      <Link to={'/gallery'}>  
-        <img className={classes.image} src={painting}/>
-        <p> painting </p>
-        </Link>
-      </div>
+        {output}
       </div>
   );
 };

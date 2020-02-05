@@ -26,11 +26,13 @@
     line-height: 100px;
   font-size: 20px;
   text-transform: uppercase;
-  transition:1s;
+  transition:0.5s;
   padding: 8px;
+  border-bottom: 2px solid transparent;
 }
 
 .NavLink:hover{
     cursor: pointer;
     color: black;
+    border-bottom: 2px solid gold;
 }

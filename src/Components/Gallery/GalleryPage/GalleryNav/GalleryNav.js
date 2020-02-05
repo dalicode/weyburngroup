@@ -9,7 +9,7 @@ const galleryNav = (props) => {
                       "landscaping", "other", "roofing"];
 
   let output = categories.map((category, index) => 
-    <li id={category} className={(props.active === " " + category +" ") ? classes.Active : null} key={index}onClick={props.click}> {category} </li>
+    <li id={category} className={(props.active.trim() === category.trim()) ? classes.Active : null} key={index} onClick={props.click}> {category} </li>
   );
 
   return (

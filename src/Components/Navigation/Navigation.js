@@ -6,10 +6,19 @@ import {Link} from "react-router-dom";
 const navigation = () => {
   return (
       <div className={classes.navMenu}>
+      <div> 
+      <Link to={'/'}>
         <img className={classes.logo} src={logo} alt="logo"/> 
+        </Link>
+        </div>
         <ul className={classes.ul}>
           <li><Link className={classes.NavLink} to={'/'}> Home </Link></li>
           <li><Link className={classes.NavLink} to={'/ourstory'}> Our Story </Link></li>
+          <li><Link className={classes.NavLink} to={{
+          pathname: '/gallery',
+          state: {
+            active: 'renovation'
+          }}}> Gallery </Link></li>
           <li><Link className={classes.NavLink} to={'/process'}> Process & Services </Link></li>
           <li><Link className={classes.NavLink} to={'/contact'}> Contact </Link></li>
         </ul>

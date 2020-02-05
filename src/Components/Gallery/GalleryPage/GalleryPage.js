@@ -8,6 +8,11 @@ class galleryPage extends Component {
     selected: ""
   }
 
+  componentDidMount () {
+    console.log(this.props.location.state.active);
+    this.setState({selected: this.props.location.state.active})
+  }
+
   galleryNavSelectedHandler = ev => {
     this.setState({selected: ev.target.textContent})
   };
