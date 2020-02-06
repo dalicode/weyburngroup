@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3129500881af90457fb5ce111c5e984",
+    "revision": "824235dbcf5dc9be1b61cd4a088c6912",
     "url": "/weyburngroup/index.html"
   },
   {
-    "revision": "de55ec5c2759d93b333b",
-    "url": "/weyburngroup/static/css/main.ba60b8fd.chunk.css"
+    "revision": "6f4dff002dadd5dc2333",
+    "url": "/weyburngroup/static/css/main.94fc6ef6.chunk.css"
   },
   {
-    "revision": "58c61acd090a83a98fdb",
-    "url": "/weyburngroup/static/js/2.17960801.chunk.js"
+    "revision": "71e8d6ab41276fc2eb07",
+    "url": "/weyburngroup/static/js/2.f3dbb17a.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/weyburngroup/static/js/2.17960801.chunk.js.LICENSE.txt"
+    "url": "/weyburngroup/static/js/2.f3dbb17a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de55ec5c2759d93b333b",
-    "url": "/weyburngroup/static/js/main.b57f3ea5.chunk.js"
+    "revision": "6f4dff002dadd5dc2333",
+    "url": "/weyburngroup/static/js/main.9b1b910e.chunk.js"
   },
   {
     "revision": "0583459363e615d82081",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "359ab2dbecdf9e08853e2500eb98b840",
     "url": "/weyburngroup/static/media/renovation.359ab2db.jpg"
+  },
+  {
+    "revision": "c841af19b8886214f07ca43f5096c776",
+    "url": "/weyburngroup/static/media/renovation1 copy.c841af19.jpg"
   },
   {
     "revision": "c841af19b8886214f07ca43f5096c776",

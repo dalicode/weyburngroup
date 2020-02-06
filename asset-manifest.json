@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weyburngroup/static/css/main.ba60b8fd.chunk.css",
-    "main.js": "/weyburngroup/static/js/main.b57f3ea5.chunk.js",
-    "main.js.map": "/weyburngroup/static/js/main.b57f3ea5.chunk.js.map",
+    "main.css": "/weyburngroup/static/css/main.94fc6ef6.chunk.css",
+    "main.js": "/weyburngroup/static/js/main.9b1b910e.chunk.js",
+    "main.js.map": "/weyburngroup/static/js/main.9b1b910e.chunk.js.map",
     "runtime-main.js": "/weyburngroup/static/js/runtime-main.8d49b500.js",
     "runtime-main.js.map": "/weyburngroup/static/js/runtime-main.8d49b500.js.map",
-    "static/js/2.17960801.chunk.js": "/weyburngroup/static/js/2.17960801.chunk.js",
-    "static/js/2.17960801.chunk.js.map": "/weyburngroup/static/js/2.17960801.chunk.js.map",
+    "static/js/2.f3dbb17a.chunk.js": "/weyburngroup/static/js/2.f3dbb17a.chunk.js",
+    "static/js/2.f3dbb17a.chunk.js.map": "/weyburngroup/static/js/2.f3dbb17a.chunk.js.map",
     "index.html": "/weyburngroup/index.html",
-    "precache-manifest.fa140c5dcd83777f062de1ed0c92baab.js": "/weyburngroup/precache-manifest.fa140c5dcd83777f062de1ed0c92baab.js",
+    "precache-manifest.3965c65b69b38c3f1c1b65abc9229e73.js": "/weyburngroup/precache-manifest.3965c65b69b38c3f1c1b65abc9229e73.js",
     "service-worker.js": "/weyburngroup/service-worker.js",
-    "static/css/main.ba60b8fd.chunk.css.map": "/weyburngroup/static/css/main.ba60b8fd.chunk.css.map",
-    "static/js/2.17960801.chunk.js.LICENSE.txt": "/weyburngroup/static/js/2.17960801.chunk.js.LICENSE.txt",
+    "static/css/main.94fc6ef6.chunk.css.map": "/weyburngroup/static/css/main.94fc6ef6.chunk.css.map",
+    "static/js/2.f3dbb17a.chunk.js.LICENSE.txt": "/weyburngroup/static/js/2.f3dbb17a.chunk.js.LICENSE.txt",
     "static/media/construction.jpg": "/weyburngroup/static/media/construction.857ecc56.jpg",
     "static/media/construction1.jpg": "/weyburngroup/static/media/construction1.50a9ddfa.jpg",
     "static/media/facebook.svg": "/weyburngroup/static/media/facebook.06468580.svg",
@@ -24,6 +24,7 @@
     "static/media/painting.jpg": "/weyburngroup/static/media/painting.004e69cc.jpg",
     "static/media/painting1.jpg": "/weyburngroup/static/media/painting1.c8a5dee0.jpg",
     "static/media/renovation.jpg": "/weyburngroup/static/media/renovation.359ab2db.jpg",
+    "static/media/renovation1 copy.jpg": "/weyburngroup/static/media/renovation1 copy.c841af19.jpg",
     "static/media/renovation1.jpg": "/weyburngroup/static/media/renovation1.c841af19.jpg",
     "static/media/roofing.jpg": "/weyburngroup/static/media/roofing.8b037215.jpg",
     "static/media/roofing1.jpg": "/weyburngroup/static/media/roofing1.c841af19.jpg",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8d49b500.js",
-    "static/js/2.17960801.chunk.js",
-    "static/css/main.ba60b8fd.chunk.css",
-    "static/js/main.b57f3ea5.chunk.js"
+    "static/js/2.f3dbb17a.chunk.js",
+    "static/css/main.94fc6ef6.chunk.css",
+    "static/js/main.9b1b910e.chunk.js"
   ]
 }
