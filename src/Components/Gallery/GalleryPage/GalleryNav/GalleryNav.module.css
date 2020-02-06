@@ -38,21 +38,28 @@
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
   }
 
   .GalleryNav {
     position: relative;
     flex: 0;
     background-color: white;
+    border-bottom: 1px solid white;
   }
 
   .GalleryNav.browse {
     position: absolute;
     padding: 0;
     height: auto;
-    width: 125px;
-    top: 20px;
-    right: 35px;
+    width: 196px;
+    top: 17px;
+    right: 30px;
     background-color: white;
   }
 }
