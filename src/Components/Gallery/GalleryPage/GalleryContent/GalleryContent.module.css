@@ -1,7 +1,7 @@
 .GalleryContent{
-    position: absolute;
-    left: 250px;
     max-width: 100vw;
+    flex: 70%;
+    overflow: auto;
 }
 
 .GalleryContent img {

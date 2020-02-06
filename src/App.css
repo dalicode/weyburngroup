@@ -44,6 +44,5 @@
 .switch-wrapper > div {
   position: absolute;
   width: 100%;
-  padding-bottom: 100px;
-  top: 120px;
+  top: 100px;
 }
