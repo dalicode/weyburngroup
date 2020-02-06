@@ -1,6 +1,5 @@
 .ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
@@ -10,22 +9,31 @@
 }
 
 .navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   position: absolute;
   z-index: 100;
-  padding: 50px 0px;
   overflow: hidden;
   background-color: #ffffff;
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
   top: 0; /* At the top */
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+.logodiv{
+  margin-right: auto;
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   height: 150px;
   left: -50px;
-  top: -17px;
+  top: 0px;
   transition: 0.4s;
 }
 
@@ -39,6 +47,11 @@
   border-bottom: 2px solid transparent;
 }
 
+.navMenu p {
+  color: gray;
+  font-size: 20px;
+}
+
 .NavLink:hover {
   cursor: pointer;
   color: black;
@@ -46,24 +59,17 @@
 }
 
 .iconBar {
-  width: 50px;
   display: none;
   cursor: pointer;
-  margin-left:auto; 
-  margin-right:0;
 }
 
 @media only screen and (max-width: 650px){
   .iconBar {
     display: block;
-    float: right;
-    padding-right: 30px;
-    top: -10px;
-  }
-  .logo {
-    padding-top: 17px;
+    margin-right: 50px;
   }
 
+  
   .ul{
     display: none;
   }
