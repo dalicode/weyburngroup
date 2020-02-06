@@ -14,12 +14,12 @@
 
 .GalleryNav li:hover {
   cursor: pointer;
-  background-color: gold;
+  background-color: #e8c208;
   color: black;
 }
 
 .Active {
-  background-color: gold;
+  background-color: #e8c208;
   color: black;
 }
 

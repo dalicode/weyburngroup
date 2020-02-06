@@ -55,7 +55,7 @@
 .NavLink:hover {
   cursor: pointer;
   color: black;
-  border-bottom: 2px solid gold;
+  border-bottom: 2px solid #e8c208;
 }
 
 .iconBar {
@@ -66,16 +66,13 @@
 @media only screen and (max-width: 650px){
   .iconBar {
     display: block;
-    margin-right: 50px;
   }
 
-  
   .ul{
     display: none;
   }
 
-  .responsive .ul{
-    padding-top: 100px;
+  .ul.responsive {
     display: block;
     width: 100%;
     height: 100%;
@@ -83,13 +80,22 @@
     background-color: white;
   }
 
-  .responsive .ul li {
+  .navMenu{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li.responsive.ul{
     display: block;
     background-color: white;
     z-index: 100;
+    width: 100%;
+    text-align: center;
   }
 
-  .responsive .NavLink {
-    padding: 0px;
+ .NavLink.responsive {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
   }
 }
