@@ -1,23 +1,23 @@
 .Home {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .LeftHeader {
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    color: gray;
-    padding-bottom: 20%;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  color: gray;
+  padding-bottom: 20%;
 }
 
-@media (max-width: 500px){
-    .LeftHeader {
-        padding-top: 0px;
+@media (max-width: 500px) {
+  .LeftHeader {
+    padding-top: 0px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
-    }
+  }
 }

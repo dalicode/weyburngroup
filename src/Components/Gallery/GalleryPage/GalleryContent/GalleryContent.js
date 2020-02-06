@@ -23,7 +23,9 @@ const galleryContent = (props) => {
 
   return (
     <div style={{textAlign:'right'}} className={classes.GalleryContent}>
-     <SubHeading> Gallery </SubHeading>
+    <div onClick={props.click} className={classes.subHeading}>
+     <SubHeading> Galleries </SubHeading>
+     </div>
       {output}
     </div>
   );

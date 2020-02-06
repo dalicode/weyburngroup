@@ -37,6 +37,22 @@
     font-size: 1em;
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 10%;
+    margin-bottom: 0;
+  }
+
+  .GalleryNav {
+    position: relative;
+    flex: 0;
+    background-color: white;
+  }
+
+  .GalleryNav.browse {
+    position: absolute;
+    padding: 0;
+    height: auto;
+    width: 125px;
+    top: 20px;
+    right: 50px;
+    background-color: white;
   }
 }

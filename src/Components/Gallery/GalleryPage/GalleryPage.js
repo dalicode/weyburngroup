@@ -6,7 +6,8 @@ import Footer from '../../Footer/Footer';
 
 class galleryPage extends Component {
   state = {
-    selected: ""
+    selected: "",
+    browse: false
   }
 
   componentDidMount () {
@@ -15,16 +16,23 @@ class galleryPage extends Component {
   }
 
   galleryNavSelectedHandler = ev => {
-    this.setState({selected: ev.target.textContent})
+    this.setState({selected: ev.target.textContent, browse: false})
   };
+
+  browseSelectedHandler = () => {
+    this.setState({browse:!this.state.browse})
+  }
 
   render() {
     return (
       <div className={classes.GalleryPage}>
         <GalleryNav click={this.galleryNavSelectedHandler}
                     active={this.state.selected}
+                    browse={this.state.browse}
         />
-        <GalleryContent active={this.state.selected}/>
+        <GalleryContent active={this.state.selected}
+                        click={this.browseSelectedHandler}
+        />
       </div>
     );
   }

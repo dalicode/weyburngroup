@@ -9,3 +9,27 @@
     padding: 5px;
     box-sizing: border-box;
 }
+
+.subHeading{
+    float: right;
+}
+
+.GalleryContent p {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: gray;
+    margin: 0 30px;
+    padding: 5px;
+    float: left;
+    display: none;
+}
+
+.GalleryContent p:hover{
+    cursor: pointer;
+}
+
+@media(max-width: 800px){
+    .GalleryContent p {
+        display: inline-block;
+    }
+}
