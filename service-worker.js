@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/weyburngroup/precache-manifest.bf2f123be4f48dada80b824663fc5a44.js"
+  "/weyburngroup/precache-manifest.d2dfca36ceb3f5eb9df7e7063fa736da.js"
 );
 
 self.addEventListener('message', (event) => {
