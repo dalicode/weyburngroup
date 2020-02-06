@@ -66,8 +66,17 @@
 @media only screen and (max-width: 770px){
   .iconBar {
     display: block;
+    padding-right: 7%;
   }
 
+  .iconBar p {
+    color: gray;
+    font-size: 4vw;
+  }
+
+  .logo {
+    height: 22vw;
+  }
   .ul{
     display: none;
   }
