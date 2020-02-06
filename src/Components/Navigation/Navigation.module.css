@@ -63,19 +63,30 @@
   cursor: pointer;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 770px){
+  .logo {
+    height: 15vw;
+  }
+
+  .iconBar p {
+    font-size: 4vw;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+  .logo {
+    height: 20vw;
+  }
+  .iconBar p {
+    font-size: 5vw;
+  }
+}
+
 @media only screen and (max-width: 770px){
   .iconBar {
     display: block;
     padding-right: 7%;
-  }
-
-  .iconBar p {
-    color: gray;
-    font-size: 4vw;
-  }
-
-  .logo {
-    height: 18vw;
   }
   .ul{
     display: none;
