@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
   .Gallery {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
