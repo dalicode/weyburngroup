@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "439530f1ef53ed022020f8e2af21c378",
+    "revision": "fd74e78d3a0ca8463c276f5edd1aaca5",
     "url": "/weyburngroup/index.html"
   },
   {
-    "revision": "29c6001df7f5ff608f57",
-    "url": "/weyburngroup/static/css/main.8a6532f0.chunk.css"
+    "revision": "1e9f0affb4a053926e71",
+    "url": "/weyburngroup/static/css/main.0dae0834.chunk.css"
   },
   {
     "revision": "f764fe7b169e12ee75b4",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weyburngroup/static/js/2.609b1864.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29c6001df7f5ff608f57",
+    "revision": "1e9f0affb4a053926e71",
     "url": "/weyburngroup/static/js/main.fd0f3616.chunk.js"
   },
   {
