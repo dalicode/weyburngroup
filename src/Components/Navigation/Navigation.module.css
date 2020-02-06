@@ -68,32 +68,19 @@
   display: none;
   cursor: pointer;
 }
-
-@media only screen and (min-width: 600px) and (max-width: 770px){
-  .logo {
-    height: 15vw;
-  }
-
-  .iconBar p {
-    font-size: 4vw;
-  }
-
-}
-
-@media only screen and (max-width: 599px){
-  .logo {
-    height: 20vw;
-  }
-  .iconBar p {
-    font-size: 5vw;
-  }
-}
-
 @media only screen and (max-width: 770px){
   .iconBar {
     display: block;
     padding-right: 7%;
   }
+
+  .logo {
+    height: 80px;
+  }
+  .iconBar p {
+    font-size: 20px;
+  }
+
   .ul{
     display: none;
   }
