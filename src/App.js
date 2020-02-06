@@ -41,6 +41,7 @@ function App() {
           <Route path="/process" component={Process} />
           <Route path="/gallery" component={GalleryPage} />
         </AnimatedSwitch>
+        <Footer/>
     </div>
   );
 }

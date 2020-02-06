@@ -25,7 +25,6 @@ class galleryPage extends Component {
                     active={this.state.selected}
         />
         <GalleryContent active={this.state.selected}/>
-        <Footer/>
       </div>
     );
   }

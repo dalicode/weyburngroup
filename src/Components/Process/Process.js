@@ -1,17 +1,35 @@
 import React from "react";
-import Footer from '../Footer/Footer';
+import Footer from "../Footer/Footer";
+import classes from "./Process.module.css";
 
 const process = () => {
   return (
-      <div>
+    <div className={classes.Process}>
         <p> Process Page </p>
         <p> Process Page </p>
         <p> Process Page </p>
         <p> Process Page </p>
         <p> Process Page </p>
         <p> Process Page </p>
-        <Footer/>
-      </div>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+        <p> Process Page </p>
+    </div>
   );
 };
 
