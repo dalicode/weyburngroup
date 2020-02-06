@@ -73,7 +73,8 @@
   }
 
   .ul.responsive {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
     transition: .3s;
@@ -94,8 +95,6 @@
   }
 
  .NavLink.responsive {
-    margin-left: 200px;
-    margin-right: 200px;
     padding: 0;
   }
 }
