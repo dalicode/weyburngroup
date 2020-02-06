@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import classes from "./GalleryPage.module.css";
 import GalleryNav from "./GalleryNav/GalleryNav";
 import GalleryContent from "./GalleryContent/GalleryContent";
+import Footer from '../../Footer/Footer';
 
 class galleryPage extends Component {
   state = {
@@ -24,6 +25,7 @@ class galleryPage extends Component {
                     active={this.state.selected}
         />
         <GalleryContent active={this.state.selected}/>
+        <Footer/>
       </div>
     );
   }
