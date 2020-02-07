@@ -64,6 +64,10 @@
   border-bottom: 2px solid #e8c208;
 }
 
+.ActiveNavLink {
+  border-bottom: 2px solid #e8c208;
+}
+
 .iconBar {
   display: none;
   cursor: pointer;
