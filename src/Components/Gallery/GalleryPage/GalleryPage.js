@@ -11,10 +11,11 @@ class galleryPage extends Component {
   }
 
   componentDidMount () {
-    console.log(this.props.location.state.active);
+    
+    if (this.props.location.state != undefined){
     this.setState({selected: this.props.location.state.active})
   }
-
+  }
   galleryNavSelectedHandler = ev => {
     this.setState({selected: ev.target.textContent, browse: false})
   };
