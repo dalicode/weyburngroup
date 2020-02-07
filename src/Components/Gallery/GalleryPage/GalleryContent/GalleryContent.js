@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./GalleryContent.module.css";
-import SubHeading from "../../../SubHeading/SubHeading";
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import './Fade.css';
 
 function importAll(r) {
   let images = {};
@@ -17,7 +18,11 @@ const galleryContent = (props) => {
     output = Object.keys(images).filter((key) => {
     return key.includes(props.active.trim());
   }).map((image,index) => {
-    return (<img src = {images[image]} key={index} alt = {image} />);
+    return (
+      <CSSTransition key={props.active + ' ' +index} in={true} appear={true} classNames="alert" timeout={900}>
+    <img src = {images[image]} key={index} alt = {image} />
+    </CSSTransition>
+    );
     });
   };
 
@@ -26,8 +31,11 @@ const galleryContent = (props) => {
     <div onClick={props.click} className={classes.subHeading}>
      <p> Galleries </p>
      </div>
+     <TransitionGroup>
       {output}
+      </TransitionGroup>
     </div>
+    
   );
 };
 

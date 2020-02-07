@@ -12,7 +12,7 @@ let services = [["construction", construction], ["painting", painting], ["renova
 
 let output = services.map((service,index) => {
   return (
-    <div className={classes.ImageWrap}>
+    <div key={index} className={classes.ImageWrap}>
       <Link to={{
           pathname: '/gallery',
           state: {

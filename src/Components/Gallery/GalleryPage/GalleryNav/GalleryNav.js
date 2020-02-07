@@ -12,8 +12,6 @@ const galleryNav = (props) => {
     <li id={category} className={(props.active.trim() === category.trim()) ? classes.Active : null} key={index} onClick={props.click}> {category} </li>
   );
 
-  console.log(props.browse);
-
   return (
     <div className = {props.browse ? `${classes.GalleryNav} ${classes.browse}` : classes.GalleryNav}>
       <ul>

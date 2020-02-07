@@ -2,7 +2,6 @@ import React from "react";
 import classes from './Home.module.css';
 import Gallery from '../Gallery/Gallery';
 import SubHeading from '../SubHeading/SubHeading';
-import Footer from '../Footer/Footer'
 const home = () => {
   return (
       <div className={classes.Home}>
