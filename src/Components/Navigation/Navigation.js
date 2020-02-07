@@ -16,7 +16,7 @@ class navigation extends Component {
   return (
       <div id="navMenu" className={classes.navMenu}>
         <div className = {classes.logodiv}> 
-          <Link to={'/weyburngroup'}>
+          <Link to={'/'}>
             <img id="logo" className={classes.logo} src={logo} alt="logo"/> 
           </Link>
         </div>
@@ -25,7 +25,7 @@ class navigation extends Component {
           <p>MENU</p>
         </div>
         <ul id="ul" className={this.state.active ? `${classes.ul} ${classes.responsive}` : classes.ul} onClick={this.show}>
-          <li><Link className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={'/weyburngroup'}> Home </Link></li>
+          <li><Link className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={'/'}> Home </Link></li>
           <li><Link className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={{
           pathname: '/gallery',
           state: {

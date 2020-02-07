@@ -35,7 +35,7 @@ function App() {
           atActive={{ opacity: 1 }}
           className="switch-wrapper"
         >
-          <Route exact path="/weyburngroup" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
           <Route path="/ourstory" component={OurStory} />
           <Route path="/process" component={Process} />
