@@ -38,4 +38,8 @@ class galleryPage extends Component {
   }
 }
 
+
+//Bathrooms Basements Kitchens
+
+//Renovation Roofing Siding
 export default galleryPage;

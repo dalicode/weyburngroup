@@ -1,3 +1,17 @@
 .Process {
     height: 100%;
+    text-align: center;
+}
+
+.Process .Text{
+    margin-top: 5%;
+    display: inline-block;
+    width: 60%;
+}
+
+.Process h1 {
+    background-image: url("testimage.jpg");
+    padding: 5%;
+    opacity: 30%;
+    border-radius: 5px;
 }
