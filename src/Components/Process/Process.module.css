@@ -1,17 +1,30 @@
 .Process {
     height: 100%;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .Process .Text{
     margin-top: 5%;
     display: inline-block;
-    width: 60%;
+    width: 80%;
+    text-align: left;
 }
 
-.Process h1 {
-    background-image: url("testimage.jpg");
-    padding: 5%;
-    opacity: 30%;
-    border-radius: 5px;
+.Process .Text .Intro{
+    padding-bottom: 10%;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.Process .Text p:first-child{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.Process p {
+    padding: 2% 5%;
+    font-size: 1.2em;
+    color: gray;
+    line-height: 1.4em;
 }
