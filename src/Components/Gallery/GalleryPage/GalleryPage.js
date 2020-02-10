@@ -6,17 +6,33 @@ import GalleryContent from "./GalleryContent/GalleryContent";
 class galleryPage extends Component {
   state = {
     selected: "",
-    browse: false
+    browse: false,
+    collapsed: true
   }
-
+  
   componentDidMount () {
     window.scrollTo(0, 0);
     if (this.props.location.state !== undefined){
     this.setState({selected: this.props.location.state.active})
+      if (this.props.location.state.active === "bathrooms"){
+        this.setState({collapsed: false})
+      }
   }
   }
+
+  collapse = () => {
+    this.setState({collapsed: true})
+  }
+  collapseToggle = () => {
+    this.setState({collapsed: !this.state.collapsed})
+  }
+
   galleryNavSelectedHandler = ev => {
     this.setState({selected: ev.target.textContent, browse: false})
+    if (ev.target.textContent.trim() === "roofing" || ev.target.textContent.trim()
+        === "siding") {
+          this.collapse();
+        }
   };
 
   browseSelectedHandler = () => {
@@ -29,6 +45,8 @@ class galleryPage extends Component {
         <GalleryNav click={this.galleryNavSelectedHandler}
                     active={this.state.selected}
                     browse={this.state.browse}
+                    collapsed={this.state.collapsed}
+                    collapseToggle={this.collapseToggle}
         />
         <GalleryContent active={this.state.selected}
                         click={this.browseSelectedHandler}

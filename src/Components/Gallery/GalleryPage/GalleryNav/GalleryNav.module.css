@@ -1,10 +1,4 @@
-.GalleryNav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.GalleryNav li {
+.GalleryNav p {
   text-align: center;
   font-size: 20px;
   padding: 2%;
@@ -13,7 +7,19 @@
   text-transform: uppercase;
 }
 
-.GalleryNav li:hover {
+.GalleryNav .collapsible p {
+  font-size: 15px;
+}
+
+.GalleryNav .collapsible {
+  display: none;
+}
+
+.GalleryNav .collapsible.open {
+  display: inherit;
+}
+
+.GalleryNav p:hover {
   cursor: pointer;
   background-color: #e8c208;
   color: black;
@@ -62,4 +68,5 @@
     right: 30px;
     background-color: white;
   }
+
 }

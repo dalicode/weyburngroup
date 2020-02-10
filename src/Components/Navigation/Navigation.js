@@ -29,7 +29,7 @@ class navigation extends Component {
           <li><NavLink activeClassName={classes.ActiveNavLink} className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={{
           pathname: '/gallery',
           state: {
-            active: 'renovation'
+            active: 'bathrooms'
           }}}> Gallery </NavLink></li>
           <li><NavLink activeClassName={classes.ActiveNavLink} className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={'/process'}> Services </NavLink></li>
           <li><NavLink activeClassName={classes.ActiveNavLink} className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={'/contact'}> Contact </NavLink></li>

@@ -2,21 +2,29 @@ import React from "react";
 import classes from "./GalleryNav.module.css";
 
 
-
 const galleryNav = (props) => {
+  
+  const categories = ["roofing", "siding"];
 
-  const categories = ["renovation", "construction", "painting", 
-                      "landscaping", "other", "roofing"];
-
-  let output = categories.map((category, index) => 
-    <li id={category} className={(props.active.trim() === category.trim()) ? classes.Active : null} key={index} onClick={props.click}> {category} </li>
+  const renoCategories = ["bathrooms", "basements", "kitchens"];
+  
+  let output = (categories) => categories.map((category, index) => 
+    <p id={category} className={(props.active.trim() === category.trim()) ? classes.Active : null} key={index} onClick={props.click}>
+    {category}
+    </p>
   );
 
   return (
     <div className = {props.browse ? `${classes.GalleryNav} ${classes.browse}` : classes.GalleryNav}>
-      <ul>
-        {output}
-      </ul>
+      <div>
+        <div className={classes.renovation}>
+          <p onClick={props.collapseToggle}>renovation</p>
+          <div className={props.collapsed ? classes.collapsible : `${classes.collapsible} ${classes.open}`}>
+          {output(renoCategories)}
+          </div>
+        </div>
+        {output(categories)}
+      </div>
     </div>
   );
 };
