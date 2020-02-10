@@ -18,7 +18,7 @@ const galleryNav = (props) => {
     <div className = {props.browse ? `${classes.GalleryNav} ${classes.browse}` : classes.GalleryNav}>
       <div>
         <div className={classes.renovation}>
-          <p onClick={props.collapseToggle}>renovation</p>
+          <p className={!props.collapsed ? classes.Active : null} onClick={props.collapseToggle}>renovation</p>
           <div className={props.collapsed ? classes.collapsible : `${classes.collapsible} ${classes.open}`}>
           {output(renoCategories)}
           </div>
