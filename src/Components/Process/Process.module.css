@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto+Slab&display=swap');
+
 .Process {
+    font-family: 'Nunito', serif;
     height: 100%;
     text-align: center;
     margin-bottom: 10%;

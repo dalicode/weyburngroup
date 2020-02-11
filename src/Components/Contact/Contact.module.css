@@ -1,3 +1,39 @@
 .Contact {
+    margin-top: 5%;
     height: 80vh;
+    display: flex;
+}
+
+.Contact .LeftDiv {
+    flex: 60%;
+}
+
+.Contact .RightDiv{
+    flex: 40%;
+    text-align: left;
+}
+
+.Contact .RightDiv input {
+    width: 80%;
+    font-size: 1.3em;
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.514);
+}
+
+.Contact .RightDiv textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    font-size: 1.3em;
+    padding: 7px;
+    display: block;
+    border: 1px solid rgba(128, 128, 128, 0.514);
+}
+
+.Contact .RightDiv button {
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding: 12px;
+    width: wrap;
+    background-color: gold;
+    border: 1px solid rgb(124, 124, 124);
 }
