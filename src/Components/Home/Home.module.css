@@ -2,7 +2,6 @@
   margin: 0 auto;
   padding-bottom: 0px;
   max-width: 1194px;
-  font-size: 1.4em;
 }
 
 .LeftHeader {
@@ -14,6 +13,7 @@
   vertical-align: top;
   color: gray;
   padding-bottom: 10%;
+  font-size: 1.4em;
 }
 
 @media (max-width: 500px) {

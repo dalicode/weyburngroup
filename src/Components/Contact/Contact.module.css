@@ -9,7 +9,7 @@
 .Contact .LeftDiv {
     flex: 55%;
     margin-right: 8%;
-    padding-top: 50px;
+    font-size: 1.2em;
 }
 
 .Contact .LeftDiv h1{

@@ -1,5 +1,6 @@
 .GalleryPage {
     display: flex;
     max-height: 87vh;
+    margin-top: 5px;
 }
 

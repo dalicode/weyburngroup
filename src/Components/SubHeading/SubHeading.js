@@ -3,7 +3,7 @@ import classes from './SubHeading.module.css';
 
 const subHeading = (props) => {
   return (
-        <p className={classes.SubHeading}> {props.children} </p>
+        <h1 className={classes.SubHeading}> {props.children} </h1>
   );
 };
 

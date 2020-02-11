@@ -1,11 +1,10 @@
 .SubHeading {
-    font-size: 1.2em;
     font-weight: bold;
     text-transform: capitalize;
     color: gray;
     margin: 0 30px;
     padding: 5px;
-    border-bottom: solid 1px rgba(128, 128, 128, 0.336);
+    border-bottom: 1px solid rgba(151, 151, 151, 0.192);
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
