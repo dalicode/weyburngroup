@@ -8,11 +8,14 @@ html{
   src: local('Helvetica Neue'), url(./assets/fonts/HelveticaNeue.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Shanhie';
+  src: local('Shanhie'), url(./assets/fonts/Shanhie\ Free\ Version.ttf) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Shanhie';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
