@@ -1,5 +1,7 @@
 .Home {
+  margin: 0 auto;
   padding-bottom: 0px;
+  max-width: 1194px;
 }
 
 .LeftHeader {

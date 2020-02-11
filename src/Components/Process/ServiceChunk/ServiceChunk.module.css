@@ -1,0 +1,35 @@
+.ServiceChunk{
+    text-align: left;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 127, 127, 0.164);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.ServiceChunk .LeftDiv {
+    flex: 70%;
+}
+
+.ServiceChunk .RightDiv {
+    flex: 30%;
+    display: flex;
+}
+
+.ServiceChunk .RightDiv img{
+    height: 100%;
+}
+
+.ServiceChunk .RightDiv .ImageWrapper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    align-self: center;
+    border: 3px solid gold;
+    box-shadow:
+    2px 4px 8px 0px hsla(0, 0%, 0%, 0.418);
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+

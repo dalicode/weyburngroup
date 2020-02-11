@@ -1,28 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto+Slab&display=swap');
 
 .Process {
-    font-family: 'Nunito', serif;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    margin: 0 auto;
     height: 100%;
     text-align: center;
     margin-bottom: 10%;
+    max-width: 1194px;
+    margin-top: 5%;
 }
 
 .Process .Text{
-    margin-top: 5%;
-    display: inline-block;
-    width: 80%;
     text-align: left;
+}
+
+
+.Process h1{
+    text-align: center;
+    color: gray;
 }
 
 .Process .Text .Intro{
     padding-bottom: 10%;
     font-size: 1.4em;
     text-align: center;
-}
-
-.Process .Text p:first-child{
-    text-align: center;
-    font-size: 1.5em;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.192);
 }
 
 .Process p {
@@ -30,4 +32,9 @@
     font-size: 1.2em;
     color: gray;
     line-height: 1.4em;
+}
+
+.Process .Service p {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
 }

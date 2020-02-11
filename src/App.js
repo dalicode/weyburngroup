@@ -10,21 +10,6 @@ import Footer from "./Components/Footer/Footer";
 import GalleryPage from "./Components/Gallery/GalleryPage/GalleryPage";
 import { AnimatedSwitch } from "react-router-transition";
 
-// window.onscroll = function() {scrollFunction()};
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-//     document.getElementById("logo").style.top = "-0px";
-//     document.getElementById("logo").style.height = "100px";
-//     document.getElementById("logo").style.left = "-30px";
-//   } else {
-//     document.getElementById("logo").style.top = "0px";
-//     document.getElementById("logo").style.height = "150px";
-//     document.getElementById("logo").style.left = "-50px";
-//     document.getElementById("iconBar").style.marginRight = "50px";
-//   }
-// }
-
 function App() {
   return (
     <div className="App">

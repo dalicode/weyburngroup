@@ -1,41 +1,57 @@
 .Contact {
-    margin-top: 5%;
     height: 80vh;
     display: flex;
+    padding: 0 5%;
+    text-align: left;
+    margin: 5% auto;
+    max-width: 1194px;
 }
 
 .Contact .LeftDiv {
     flex: 55%;
+    margin-right: 8%;
+    padding-top: 50px;
+}
+
+.Contact .LeftDiv h1{
+    color: gray;
 }
 
 .Contact .RightDiv{
     flex: 45%;
-    text-align: left;
+    width: 45%;
+}
+
+.Contact p{
+    color: gray;
 }
 
 .Contact .RightDiv input {
-    width: 90%;
+    width: 100%;
     font-size: 1.3em;
     padding: 7px;
     border: 1px solid rgba(128, 128, 128, 0.514);
+    box-sizing: border-box;
 }
 
 .Contact .RightDiv textarea {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 90%;
+    width: 100%;
     font-size: 1.3em;
     padding: 7px;
     display: block;
     border: 1px solid rgba(128, 128, 128, 0.514);
+    box-sizing: border-box;
 }
 
 .Contact .RightDiv button {
     font-size: 1.2em;
     margin-top: 20px;
-    padding: 12px;
+    padding: 10px 15px;
     width: wrap;
     background-color: rgb(228, 228, 228);
     border: 1px solid rgb(124, 124, 124);
+    color: gray;
 }
 
 .Contact .RightDiv button:hover {
