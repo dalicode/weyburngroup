@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2eaaebb.chunk.css",
+    "main.css": "/static/css/main.ba71b3a0.chunk.css",
     "main.js": "/static/js/main.a8881a23.chunk.js",
     "main.js.map": "/static/js/main.a8881a23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e2d3261c.js",
@@ -8,9 +8,9 @@
     "static/js/2.115d437f.chunk.js": "/static/js/2.115d437f.chunk.js",
     "static/js/2.115d437f.chunk.js.map": "/static/js/2.115d437f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bb29a4a439c1172b56688733203d705d.js": "/precache-manifest.bb29a4a439c1172b56688733203d705d.js",
+    "precache-manifest.348e13e26e57c1932bc807905bcb6deb.js": "/precache-manifest.348e13e26e57c1932bc807905bcb6deb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b2eaaebb.chunk.css.map": "/static/css/main.b2eaaebb.chunk.css.map",
+    "static/css/main.ba71b3a0.chunk.css.map": "/static/css/main.ba71b3a0.chunk.css.map",
     "static/js/2.115d437f.chunk.js.LICENSE.txt": "/static/js/2.115d437f.chunk.js.LICENSE.txt",
     "static/media/basements2.jpg": "/static/media/basements2.50a9ddfa.jpg",
     "static/media/bathrooms1.jpg": "/static/media/bathrooms1.c841af19.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.e2d3261c.js",
     "static/js/2.115d437f.chunk.js",
-    "static/css/main.b2eaaebb.chunk.css",
+    "static/css/main.ba71b3a0.chunk.css",
     "static/js/main.a8881a23.chunk.js"
   ]
 }
