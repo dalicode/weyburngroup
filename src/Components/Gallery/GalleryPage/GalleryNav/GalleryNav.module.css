@@ -24,12 +24,12 @@
 
 .GalleryNav p:hover {
   cursor: pointer;
-  background-color: #e8c208;
+  background-color: #f6c348;
   color: black;
 }
 
 .Active {
-  background-color: #e8c208;
+  background-color: #f6c348;
   color: black;
 }
 

@@ -28,13 +28,13 @@ const contact = () => {
       <div className={classes.RightDiv}>
         <form action="https://formspree.io/myywbdqz" method="POST">
           <p>Full Name:</p>
-          <input type="text" name="name" />
+          <input placeholder="Abdulaziz Farah" type="text" name="name" />
           <p>Email Address:</p>
-          <input type="text" name="_replyto" />
+          <input placeholder="abdulaziz.farah@hotmail.com" type="text" name="_replyto" />
           <p>Phone Number:</p>
-          <NumberFormat format="(###) ###-####" mask="_" />
+          <NumberFormat placeholder="(123)-456-7890" format="(###) ###-####" mask="_" />
           <p>Message:</p>
-          <textarea name="message"></textarea>
+          <textarea rows="6" placeholder="Start typing message here..." name="message"></textarea>
 
           <button type="submit">Submit</button>
         </form>

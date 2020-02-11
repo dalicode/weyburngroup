@@ -62,11 +62,11 @@
 .NavLink:hover {
   cursor: pointer;
   color: black;
-  border-bottom: 2px solid #e8c208;
+  border-bottom: 2px solid #f6c348;
 }
 
 .ActiveNavLink {
-  border-bottom: 2px solid #e8c208;
+  border-bottom: 2px solid #f6c348;
 }
 
 .iconBar {
