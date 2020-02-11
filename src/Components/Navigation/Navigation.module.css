@@ -9,7 +9,6 @@
 }
 
 .navMenu {
-  font-family: 'Helvetica Neue';
   font-weight: bold;
   display: flex;
   box-shadow: 2px 4px 8px 0px rgba(192, 192, 192, 0.185);
