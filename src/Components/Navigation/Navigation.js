@@ -31,7 +31,7 @@ class navigation extends Component {
           state: {
             active: 'bathrooms'
           }}}> Gallery </NavLink></li>
-          <li><NavLink activeClassName={classes.ActiveNavLink} className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={'/process'}> Services </NavLink></li>
+          <li><NavLink activeClassName={classes.ActiveNavLink} className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={'/services'}> Services </NavLink></li>
           <li><NavLink activeClassName={classes.ActiveNavLink} className={this.state.active ? `${classes.NavLink} ${classes.responsive}` : classes.NavLink} to={'/contact'}> Contact </NavLink></li>
         </ul>
       </div>

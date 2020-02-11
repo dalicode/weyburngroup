@@ -37,8 +37,7 @@ function App() {
         >
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
-          <Route path="/ourstory" component={OurStory} />
-          <Route path="/process" component={Process} />
+          <Route path="/services" component={Process} />
           <Route path="/gallery" component={GalleryPage} />
         </AnimatedSwitch>
         <Footer/>
