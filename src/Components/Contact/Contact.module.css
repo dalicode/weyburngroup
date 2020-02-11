@@ -5,16 +5,16 @@
 }
 
 .Contact .LeftDiv {
-    flex: 60%;
+    flex: 55%;
 }
 
 .Contact .RightDiv{
-    flex: 40%;
+    flex: 45%;
     text-align: left;
 }
 
 .Contact .RightDiv input {
-    width: 80%;
+    width: 90%;
     font-size: 1.3em;
     padding: 7px;
     border: 1px solid rgba(128, 128, 128, 0.514);
@@ -22,7 +22,7 @@
 
 .Contact .RightDiv textarea {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 80%;
+    width: 90%;
     font-size: 1.3em;
     padding: 7px;
     display: block;
@@ -34,6 +34,11 @@
     margin-top: 20px;
     padding: 12px;
     width: wrap;
-    background-color: gold;
+    background-color: rgb(228, 228, 228);
     border: 1px solid rgb(124, 124, 124);
+}
+
+.Contact .RightDiv button:hover {
+    background-color: gold;
+    cursor: pointer;
 }
