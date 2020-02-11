@@ -7,11 +7,11 @@ import instagram from '../../assets/twitter.svg'
 const footer = () => {
   return (
       <div className={classes.footer}>
-        {/* <ul>
+        <ul>
           <li><img src={facebook} alt="f"/></li>
           <li><img src={twitter} alt="t"/></li>
           <li><img src={instagram} alt="i"/></li>
-        </ul> */}
+        </ul>
       </div>
   );
 };

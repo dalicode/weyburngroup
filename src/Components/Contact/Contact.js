@@ -13,16 +13,16 @@ const contact = () => {
           message, or contact us directly. 
           <br/>
           <br/>
-          DSBG 
+          Weyburn Group 
           <br/>
-          80 Bass Pro Mills Drive, Suite 7
+          123 Sesame Street
           <br/>
-          Vaughan ON L4K 5W9 
+          Toronto ON M1S1K6
           <br/>
           <br/>
-          info@dsbg.ca 
+          contact@weyburngroup.com 
           <br/>
-          416.367.DSBG
+          416-456-7809
         </p>
       </div>
       <div className={classes.RightDiv}>

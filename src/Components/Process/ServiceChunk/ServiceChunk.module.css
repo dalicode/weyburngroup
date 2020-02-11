@@ -10,6 +10,10 @@
     flex: 70%;
 }
 
+.ServiceChunk h2{
+    font-weight: 500;
+}
+
 .ServiceChunk .RightDiv {
     flex: 30%;
     display: flex;
