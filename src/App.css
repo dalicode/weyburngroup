@@ -46,3 +46,9 @@
   width: 100%;
   top: 100px;
 }
+
+@media only screen and (max-width: 800px){
+.switch-wrapper > div {
+  top: 80px;
+}
+}
