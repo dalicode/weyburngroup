@@ -35,7 +35,7 @@
 }
 
 .Contact .RightDiv textarea {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Helvetica Neue';
     width: 100%;
     font-size: 1.3em;
     padding: 7px;
@@ -57,4 +57,21 @@
 .Contact .RightDiv button:hover {
     background-color: gold;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 800px){
+    .Contact {
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .Contact .LeftDiv{
+        padding-top: 0;
+    }
+
+    .Contact .RightDiv {
+        padding-top: 10%;
+        width: 100%;
+    }
 }
