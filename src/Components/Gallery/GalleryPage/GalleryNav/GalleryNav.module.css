@@ -43,8 +43,8 @@
 }
 
 @media only screen and (max-width: 800px){
-  .GalleryNav li {
-    font-size: 1em;
+  .GalleryNav p {
+    font-size: 1.2em;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 0;
@@ -67,7 +67,7 @@
     position: absolute;
     padding: 0;
     height: auto;
-    width: 182px;
+    width: 166px;
     top: 13px;
     right: 30px;
     background-color: white;
