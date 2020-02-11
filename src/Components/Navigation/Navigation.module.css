@@ -9,7 +9,7 @@
 }
 
 .navMenu {
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   box-shadow: 2px 4px 8px 0px rgba(192, 192, 192, 0.185);
   justify-content: center;
