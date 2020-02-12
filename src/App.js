@@ -12,18 +12,18 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-        <AnimatedSwitch
-          atEnter={{ opacity: 0 }}
-          atLeave={{ opacity: 0 }}
-          atActive={{ opacity: 1 }}
-          className="switch-wrapper"
-        >
-          <Route exact path="/" component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/services" component={Process} />
-          <Route path="/gallery" component={GalleryPage} />
-        </AnimatedSwitch>
-        {/* <Footer/> */}
+      <AnimatedSwitch
+        atEnter={{ opacity: 0 }}
+        atLeave={{ opacity: 0 }}
+        atActive={{ opacity: 1 }}
+        className="switch-wrapper"
+      >
+        <Route exact path="/" component={Home} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/services" component={Process} />
+        <Route path="/gallery" component={GalleryPage} />
+      </AnimatedSwitch>
+      {/* <Footer/> */}
     </div>
   );
 }
