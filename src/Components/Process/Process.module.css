@@ -3,10 +3,9 @@
     margin: 0 auto;
     height: 100%;
     text-align: center;
-    margin-bottom: 10%;
     max-width: 1194px;
-    margin-top: 15%;
     padding: 0 15px;
+    padding-bottom: 10%;
 }
 
 .Process .Text{
@@ -20,7 +19,7 @@
 }
 
 .Process .Text .Intro{
-    padding-bottom: 20%;
+    padding: 20% 10%;
     font-size: 1.4em;
     text-align: center;
 }
