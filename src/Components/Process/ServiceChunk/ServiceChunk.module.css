@@ -2,11 +2,11 @@
     text-align: left;
     display: flex;
     border-top: 1px solid rgba(128, 127, 127, 0.164);
+    min-height: fit-content;
 }
 
 .ServiceChunk .LeftDiv {
     flex: 70%;
-    min-height: fit-content;
     height: 40vh;
 }
 
@@ -46,6 +46,10 @@
     .ServiceChunk {
         display: block;
         margin-bottom: 3em;
+    }
+
+    .ServiceChunk .LeftDiv {
+        height: fit-content;
     }
 
 }
