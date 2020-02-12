@@ -9,7 +9,7 @@ const serviceChunk = props => {
       </div>
       <div className={classes.RightDiv}>
         <div className={classes.ImageWrapper}>
-        <img src={require('../../../assets/Main Gallery/construction.jpg')}/>
+        <img src={require('../../../assets/Main Gallery/construction.jpg')} alt={props.children[0]}/>
         </div>
       </div>
     </div>

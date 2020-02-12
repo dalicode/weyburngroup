@@ -1,7 +1,5 @@
 import React from "react";
 import classes from "./Process.module.css";
-import SubHeading from "../SubHeading/SubHeading";
-import Heading from "./Heading/Heading";
 import ServiceChunk from "./ServiceChunk/ServiceChunk";
 
 const process = () => {

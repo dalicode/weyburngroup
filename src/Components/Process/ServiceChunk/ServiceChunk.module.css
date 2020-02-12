@@ -6,8 +6,8 @@
 
 .ServiceChunk .LeftDiv {
     flex: 70%;
-    min-height: 200px;
-    height: 30vh;
+    min-height: fit-content;
+    height: 40vh;
 }
 
 .ServiceChunk h2{
@@ -45,6 +45,7 @@
 @media only screen and (max-width: 800px){
     .ServiceChunk {
         display: block;
+        margin-bottom: 3em;
     }
 }
 

@@ -1,9 +1,15 @@
 .Contact {
+    position: fixed;
     display: flex;
     padding: 0 5%;
     text-align: left;
+    margin-top: 0;
     margin: 5% auto;
     max-width: 1194px;
+    top: 45%;
+    -moz-transform:  translateY(-50%);
+    -webkit-transform:  translateY(-50%);
+    transform:  translateY(-50%);
 }
 
 .Contact .LeftDiv {
@@ -47,26 +53,60 @@
 .Contact ::placeholder {
     opacity: 0.2;
 }
-.Contact .RightDiv button {
-    font-size: 1em;
-    margin-top: 20px;
-    padding: 10px 15px;
-    width: wrap;
-    background-color: rgb(228, 228, 228);
-    border: 1px solid rgb(124, 124, 124);
-    color: gray;
-}
 
-.Contact .RightDiv button:hover {
+.Contact .RightDiv button {
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: 300;
+    position: relative;
+    font-size: 1em;
     background-color: #f6c348;
+    border-color: #f6c348;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.11);
+    min-width: 148px;
+    line-height: 45px;
+    text-align: center;
+    border: 0px solid white;
+    box-sizing: content-box;
     cursor: pointer;
-}
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+  
+  .Contact .RightDiv button:after {
+    background: white;
+      content: "";
+      height: 155px;
+      left: -75px;
+      opacity: .2;
+      position: absolute;
+      top: -50px;
+      transform: rotate(35deg);
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+      width: 50px;
+      box-sizing: border-box;
+  }
+  
+  .Contact .RightDiv button:hover:after {
+      left: 120%;
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .Contact .RightDiv button:hover {
+    background-color: #f3ae0d;
+  }
 
 @media only screen and (max-width: 800px){
     .Contact {
         display: block;
         margin-top: 0;
         padding-top: 0;
+        position: relative;
+        top: 0;
+    -moz-transform:  none;
+    -webkit-transform:  none;
+    transform:  none;
     }
 
     .Contact .LeftDiv{

@@ -1,7 +1,4 @@
 import React from "react";
-import construction from '../../assets/Main Gallery/construction.jpg'
-import landscaping from '../../assets/Main Gallery/landscaping.jpg'
-import other from '../../assets/Main Gallery/other.jpg'
 import renovation from '../../assets/Main Gallery/renovation.jpg'
 import roofing from '../../assets/Main Gallery/roofing.jpg'
 import siding from '../../assets/Main Gallery/painting.jpg'

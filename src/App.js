@@ -3,10 +3,8 @@ import Navigation from "./Components/Navigation/Navigation";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import Contact from "./Components/Contact/Contact";
-import OurStory from "./Components/Our Story/OurStory";
 import Process from "./Components/Process/Process";
 import { Route } from "react-router-dom";
-import Footer from "./Components/Footer/Footer";
 import GalleryPage from "./Components/Gallery/GalleryPage/GalleryPage";
 import { AnimatedSwitch } from "react-router-transition";
 
