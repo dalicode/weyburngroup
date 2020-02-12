@@ -8,7 +8,6 @@ const process = () => {
   return (
     <div className={classes.Process}>
       <div className={classes.Text}>
-        <h1> Services </h1>
         <p className={classes.Intro}>
           Our team at Weyburn Group has 10+ years of commercial and residential
           construction experience. We provide excellent work for our clients at
@@ -25,7 +24,7 @@ const process = () => {
         </ServiceChunk>
 
         
-          <ServiceChunk>
+          <ServiceChunk reverse={true}>
           <h2>Roofing</h2>
             We operate with a full service roofing team which offers
             pre-installation roof inspection, waterproofing/ice shield, shingle

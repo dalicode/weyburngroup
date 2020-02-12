@@ -3,7 +3,7 @@ import classes from "./ServiceChunk.module.css"
 
 const serviceChunk = props => {
   return (
-    <div className={classes.ServiceChunk}>
+    <div style={props.reverse ? {flexDirection:'row-reverse'} : null}className={classes.ServiceChunk}>
       <div className={classes.LeftDiv}>
         <p>{props.children}</p>
       </div>

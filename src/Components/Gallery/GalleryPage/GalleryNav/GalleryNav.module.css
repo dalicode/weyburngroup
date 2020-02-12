@@ -1,7 +1,7 @@
 .GalleryNav p {
   text-align: center;
-  font-weight: 600;
-  font-size: 1.4em;
+  font-weight: 400;
+  font-size: 1.2em;
   padding: 2%;
   margin-bottom: 5%;
   color: gray;
@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 800px){
   .GalleryNav p {
-    font-size: 1.2em;
+    font-size: 1em;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 0;

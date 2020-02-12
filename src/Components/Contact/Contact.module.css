@@ -28,23 +28,27 @@
 
 .Contact .RightDiv input {
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 7px;
     border: 1px solid rgba(128, 128, 128, 0.514);
     box-sizing: border-box;
 }
 
 .Contact .RightDiv textarea {
+    font-family: 'open sans';
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 7px;
     display: block;
     border: 1px solid rgba(128, 128, 128, 0.514);
     box-sizing: border-box;
 }
 
+.Contact ::placeholder {
+    opacity: 0.2;
+}
 .Contact .RightDiv button {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-top: 20px;
     padding: 10px 15px;
     width: wrap;

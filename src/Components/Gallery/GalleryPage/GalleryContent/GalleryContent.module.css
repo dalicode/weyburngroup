@@ -17,7 +17,7 @@
 }
 
 .GalleryContent p {
-    font-size: 1.2em;
+    font-size: 1em;
     text-transform: uppercase;
     color: gray;
     width: 167px;
@@ -42,6 +42,6 @@
     .GalleryContent p {
         display: inline-block;
         font-weight: 600;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
