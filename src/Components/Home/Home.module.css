@@ -11,7 +11,7 @@
   vertical-align: top;
   color: gray;
   font-size: 1.4em;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
 }
 
 .Home .Button {
