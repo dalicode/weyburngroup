@@ -4,24 +4,17 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Fade.css';
 import LazyLoad from 'react-lazy-load';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
-
-function importAll(r) {
-  let images = {};
-  r.keys().forEach((item) => { images[item.replace('./', '')] = r(item); });
-  return images;
-}
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const galleryContent = (props) => {
-  const images = importAll(require.context('../../../../assets/Gallery Page', false, /\.(png|jpe?g|svg)$/));
-
   let output = null;
 
   if (props.active.trim() !== ""){
-    output = Object.keys(images).filter((key) => {
+    output = Object.keys(props.images).filter((key) => {
     return key.includes(props.active.trim());
   }).map((image,index) => {
     return (
-    <LazyLoadImage src = {images[image]} effect="blur" key={index} alt = {image} />
+    <LazyLoadImage src = {props.images[image]} effect="blur" key={index} alt = {image} />
     );
     });
   };

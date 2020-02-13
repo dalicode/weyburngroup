@@ -10,6 +10,14 @@ class galleryPage extends Component {
     collapsed: true
   }
   
+  importAll(r) {
+    let images = {};
+    r.keys().forEach((item) => { images[item.replace('./', '')] = r(item); });
+    return images;
+  }
+
+  images = this.importAll(require.context('../../../assets/Gallery Page', false, /\.(png|jpe?g|svg)$/));
+
   componentDidMount () {
     window.scrollTo(0, 0);
     if (this.props.location.state !== undefined){
@@ -50,6 +58,7 @@ class galleryPage extends Component {
         />
         <GalleryContent active={this.state.selected}
                         click={this.browseSelectedHandler}
+                        images={this.images}
         />
       </div>
     );
