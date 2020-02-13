@@ -14,8 +14,10 @@ const galleryContent = (props) => {
     return key.includes(props.active.trim());
   }).map((image,index) => {
     return (
+      <CSSTransition key={props.active + ' ' +index} in={true} appear={true} classNames="alert" timeout={900}>
     <LazyLoadImage src = {props.images[image]} effect="blur" width={image.width} height={image.height}
     key={index} alt = {image} />
+    </CSSTransition>
     );
     });
   };
@@ -26,7 +28,9 @@ const galleryContent = (props) => {
     <div onClick={props.click} className={classes.subHeading}>
      <p> Galleries </p>
      </div>
+     <TransitionGroup>
       {output}
+      </TransitionGroup>
     </div>
     
   );
