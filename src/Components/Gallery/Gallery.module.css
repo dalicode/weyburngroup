@@ -22,7 +22,7 @@
   color: gray;
   vertical-align: middle;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.4em;
   margin: 0;
 }
 
@@ -41,8 +41,18 @@
 
 @media (max-width: 900px) {
   .Gallery {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
+
+  .ImageWrap p{
+    font-size: 1em;
+  }
+
+  .image {
+    width: 70px;
+    height: auto;
+  }
+
 }
 
 /* @media (max-width: 450px) {
