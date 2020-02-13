@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bdbfbbb21bcf3fcd64ec6c6ffefda8a",
+    "revision": "6085a8fd6ff668a80206ec226f1ab8d0",
     "url": "/index.html"
   },
   {
-    "revision": "309707f0c3ba9402a71e",
+    "revision": "0700a7f34efdc63eae47",
     "url": "/static/css/2.27fdde94.chunk.css"
   },
   {
-    "revision": "b12d1c7a09f5e4adde62",
-    "url": "/static/css/main.176a8770.chunk.css"
+    "revision": "36524776c128020f723b",
+    "url": "/static/css/main.d0bca7a3.chunk.css"
   },
   {
-    "revision": "309707f0c3ba9402a71e",
-    "url": "/static/js/2.bcf5ec46.chunk.js"
+    "revision": "0700a7f34efdc63eae47",
+    "url": "/static/js/2.c34c3b6b.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/static/js/2.bcf5ec46.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c34c3b6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b12d1c7a09f5e4adde62",
-    "url": "/static/js/main.64d9f469.chunk.js"
+    "revision": "36524776c128020f723b",
+    "url": "/static/js/main.5afb6c6c.chunk.js"
   },
   {
     "revision": "e07bc9d6ee6a5ccb52a2",
@@ -88,8 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/renovation.3119cf02.png"
   },
   {
-    "revision": "8009e6763ab90512ac3be79f06d3128e",
-    "url": "/static/media/renovation.8009e676.png"
+    "revision": "f592601899dda2709ada1f8c227cffa3",
+    "url": "/static/media/renovation.f5926018.png"
+  },
+  {
+    "revision": "639aa950b43ebe6a653470b8f036a197",
+    "url": "/static/media/roofing.639aa950.jpg"
   },
   {
     "revision": "bf8e44c81d5e3fcb3033887ea2a5e262",
@@ -110,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75962109bc85feb698c4596560a3c027",
     "url": "/static/media/siding.75962109.png"
+  },
+  {
+    "revision": "9deeeeca1c9bdcd295749d55c2b01189",
+    "url": "/static/media/siding.9deeeeca.png"
   },
   {
     "revision": "7c227df9e353fb0e57d6036c956eac3a",
