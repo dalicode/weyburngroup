@@ -8,21 +8,19 @@ const contact = () => {
         <div className={classes.LeftDiv}>
           <h1> Contact Us </h1>
           <p>
-            We want to hear from you! If you have any questions or would like to
-            book a consultation, you can use the contact form to send us a
-            message, or contact us directly.
+          We would love to hear from you! If you have any questions or would like to book a consultation, you can use the contact form to send us a message or contact us directly.
             <br />
             <br />
             Weyburn Group
             <br />
-            123 Sesame Street
+            618 Weyburn Square
             <br />
-            Toronto ON M1S1K6
+            Pickering ON L1V3V4
             <br />
             <br />
-            contact@weyburngroup.com
+            info@weyburngroup.com
             <br />
-            416-456-7809
+            (647) 271-3886
           </p>
         </div>
         <div className={classes.RightDiv}>

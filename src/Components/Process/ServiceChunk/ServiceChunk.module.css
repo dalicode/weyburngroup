@@ -7,7 +7,7 @@
 
 .ServiceChunk .LeftDiv {
     flex: 70%;
-    height: 40vh;
+    min-height: fit-content;
 }
 
 .ServiceChunk h2{
