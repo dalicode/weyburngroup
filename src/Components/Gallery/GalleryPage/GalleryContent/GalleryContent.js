@@ -1,13 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import classes from "./GalleryContent.module.css";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Fade.css';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import Loading from './Loading/Loading';
 
 
-const galleryContent = (props) => {
+const GalleryContent = (props) => {
   let output = null;
   
   if (props.active.trim() !== ""){
@@ -16,13 +15,12 @@ const galleryContent = (props) => {
   }).map((image,index) => {
     return (
       <CSSTransition key={props.active + ' ' +index} in={true} appear={true} classNames="alert" timeout={900}>
-    <LazyLoadImage src={props.images[image]} effect="blur" width={image.width} height={image.height} placeholder={<Loading/>}
+    <LazyLoadImage src={props.images[image]} effect="blur" width={image.width} height={image.height}
     key={index} alt = {image} />
     </CSSTransition>
     );
     });
   };
-
 
   return (
     <div style={{textAlign:'right'}} className={classes.GalleryContent}>
@@ -37,4 +35,4 @@ const galleryContent = (props) => {
   );
 };
 
-export default galleryContent;
+export default GalleryContent;

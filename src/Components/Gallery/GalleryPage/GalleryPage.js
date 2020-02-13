@@ -47,6 +47,10 @@ class galleryPage extends Component {
     this.setState({browse:!this.state.browse})
   }
 
+  loadingHandler = () => {
+    this.setState({loading:false})
+  }
+
   render() {
     return (
       <div className={classes.GalleryPage}>
@@ -59,6 +63,7 @@ class galleryPage extends Component {
         <GalleryContent active={this.state.selected}
                         click={this.browseSelectedHandler}
                         images={this.images}
+                        loading={this.loadingHandler}
         />
       </div>
     );
