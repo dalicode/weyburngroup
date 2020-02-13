@@ -3,6 +3,7 @@ import classes from "./GalleryContent.module.css";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Fade.css';
 import LazyLoad from 'react-lazy-load';
+import {LazyLoadImage} from 'react-lazy-load-image-component';
 
 function importAll(r) {
   let images = {};
@@ -20,25 +21,18 @@ const galleryContent = (props) => {
     return key.includes(props.active.trim());
   }).map((image,index) => {
     return (
-      <CSSTransition key={props.active + ' ' +index} in={true} appear={true} classNames="alert" timeout={900}>
-    <img src = {images[image]} key={index} alt = {image} />
-    </CSSTransition>
+    <LazyLoadImage src = {images[image]} effect="blur" key={index} alt = {image} />
     );
     });
   };
+
 
   return (
     <div style={{textAlign:'right'}} className={classes.GalleryContent}>
     <div onClick={props.click} className={classes.subHeading}>
      <p> Galleries </p>
      </div>
-     <LazyLoad
-        debounce={false}
-        offsetVertical={400}>
-     <TransitionGroup>
       {output}
-      </TransitionGroup>
-      </LazyLoad>
     </div>
     
   );
