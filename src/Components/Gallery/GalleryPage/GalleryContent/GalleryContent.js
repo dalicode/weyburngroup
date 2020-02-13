@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./GalleryContent.module.css";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Fade.css';
+import LazyLoad from 'react-lazy-load';
 
 function importAll(r) {
   let images = {};
@@ -31,9 +32,13 @@ const galleryContent = (props) => {
     <div onClick={props.click} className={classes.subHeading}>
      <p> Galleries </p>
      </div>
+     <LazyLoad
+        debounce={false}
+        offsetVertical={400}>
      <TransitionGroup>
       {output}
       </TransitionGroup>
+      </LazyLoad>
     </div>
     
   );
