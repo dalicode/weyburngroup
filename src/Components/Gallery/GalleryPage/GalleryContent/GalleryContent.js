@@ -2,9 +2,9 @@ import React from "react";
 import classes from "./GalleryContent.module.css";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Fade.css';
-import LazyLoad from 'react-lazy-load';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 const galleryContent = (props) => {
   let output = null;
@@ -28,7 +28,7 @@ const galleryContent = (props) => {
     <div onClick={props.click} className={classes.subHeading}>
      <p> Galleries </p>
      </div>
-     <TransitionGroup>
+     <TransitionGroup className={classes.Images}>
       {output}
       </TransitionGroup>
     </div>

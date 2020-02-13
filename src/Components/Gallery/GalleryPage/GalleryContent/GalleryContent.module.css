@@ -1,7 +1,7 @@
 .GalleryContent {
     max-width: 100vw;
     flex: 70%;
-    overflow: auto;
+    overflow-y: scroll;
 }
 
 .GalleryContent img {
@@ -40,12 +40,19 @@
 
 @media (max-width: 800px) {
     .GalleryContent p {
+        position: relative;
         display: inline-block;
         font-weight: 600;
         font-size: 1em;
+        z-index: 10;
     }
 
     .GalleryContent {
         padding-right: 0;
+    }
+
+    .GalleryContent .Images {
+        position: relative;
+        z-index: -1;
     }
 }

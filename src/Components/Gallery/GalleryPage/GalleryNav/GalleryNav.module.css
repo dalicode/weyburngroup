@@ -55,6 +55,9 @@
             user-select: none;
   }
 
+  .GalleryNav .collapsible p {
+    font-size: 0.7em;
+  }
   .GalleryNav {
     position: relative;
     flex: 0;
