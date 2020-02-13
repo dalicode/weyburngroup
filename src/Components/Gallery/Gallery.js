@@ -1,6 +1,6 @@
 import React from "react";
 import renovation from '../../assets/Main Gallery/renovation.png'
-import roofing from '../../assets/Main Gallery/roofing.png'
+import roofing from '../../assets/Main Gallery/roofing.jpg'
 import siding from '../../assets/Main Gallery/siding.png'
 import classes from "./Gallery.module.css";
 import {Link} from "react-router-dom";

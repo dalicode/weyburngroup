@@ -18,16 +18,16 @@ const home = () => {
         <Gallery/>
         <div className={classes.ValuesSection}>
           <Value reverse={true} src={value1}>
-            <h2>Customers</h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio molestiae incidunt sequi sint voluptates deserunt non. Vel ducimus maxime labore 
+            <h2>Communication</h2>
+            We are here to make your vision a reality, which is why we place such importance on communication. We always strive to offer exceptional customer service and transparency in all our work.
           </Value>
-          <Value reverse={true} src={value1}>
-            <h2>Customers</h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus error mollitia at harum explicabo quae, sint tempore corrupti quidem in nemo,
+          <Value reverse={true} src={value3}>
+            <h2>Quality</h2>
+            Without a doubt, the team at Weyburn Group provides work quality of the highest standard. Having construction experience in both commercial retail and residential capacities, we believe that our services offered will leave our clients beyond satisfied.
           </Value>
-          <Value reverse={true} src={value1}>
-            <h2>Customers</h2>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci saepe veritatis tempora voluptatem magnam pariatur ad, corrupti iste laboru
+          <Value reverse={true} src={value2}>
+            <h2>Safety</h2>
+            Above all else, safety is our number one priority when it comes to our work. For both our clients' and our team's protection, Weyburn Group takes great pride in abiding by all building codes and work safety rules to ensure that our services are flawless and hazard-free.
           </Value>
         </div>
       </div>
