@@ -15,7 +15,7 @@ const contact = () => {
             <br />
             618 Weyburn Square
             <br />
-            Pickering ON L1V3V4
+            Pickering ON L1V 3V4
             <br />
             <br />
             info@weyburngroup.com

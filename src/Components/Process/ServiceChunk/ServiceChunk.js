@@ -8,7 +8,7 @@ const serviceChunk = props => {
         <p>{props.children}</p>
       </div>
       <div className={classes.RightDiv}>
-        <div className={classes.ImageWrapper}>
+      <div className={classes.ImageWrapper}>
         <img src={props.src} alt={props.children[0]}/>
         </div>
       </div>

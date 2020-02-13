@@ -1,0 +1,43 @@
+.Value{
+    text-align: left;
+    display: flex;
+    min-height: fit-content;
+    padding: 2em 0;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.Value .LeftDiv {
+    flex: 75%;
+    min-height: fit-content;
+    width: fit-content;
+}
+
+.Value .LeftDiv p {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+.Value h2{
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.Value .RightDiv {
+    flex: 25%;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.Value .RightDiv img{
+    height: 70px;
+}
+
+@media (max-width: 800px) {
+    .Value {
+        margin: 0 auto;
+        width: 100%;
+    }
+}

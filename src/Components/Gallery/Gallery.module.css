@@ -2,44 +2,37 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 15px;
+  padding: 2em 15px;
+  background-color: rgba(212, 212, 212, 0.137);
 }
 
 .image {
-  max-width: 100%;
-  width: 100%;
+  width: 120px;
+  height: auto;
 }
 
 .ImageWrap {
-  flex: 250px;
+  flex: 70px;
   margin: 5px;
   position: relative;
   transition: 0.5s;
 }
 
 .ImageWrap p{
-  margin: 0;
-  position: absolute;
-  padding-top: 33%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
+  color: gray;
   vertical-align: middle;
   text-transform: uppercase;
   font-size: 25px;
-
-  /* transition effect. not necessary */
-  transition: opacity .5s, visibility .2s;
+  margin: 0;
 }
 
-.ImageWrap:hover p {
-  visibility: visible;
-  opacity: 1;
+
+.ImageWrap .Link{
+  text-decoration: none;
+}
+
+.ImageWrap:hover {
+  transform: scale(1.2);
 }
 
 .ImageWrap:hover {
