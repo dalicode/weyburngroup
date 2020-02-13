@@ -14,7 +14,7 @@ const galleryContent = (props) => {
     return key.includes(props.active.trim());
   }).map((image,index) => {
     return (
-    <LazyLoadImage src = {props.images[image]} effect="blur" key={index} alt = {image} />
+    <LazyLoadImage src = {props.images[image]} effect="blur" width={image.width} height={image.height}key={index} alt = {image} />
     );
     });
   };
