@@ -7,7 +7,7 @@ const serviceChunk = props => {
       <div className={classes.LeftDiv}>
         <p>{props.children}</p>
       </div>
-      <div style={props.reverse ? {justifyContent:'flex-start'} : null} className={classes.RightDiv}>
+      <div style={props.reverse && window.innerWidth >= 800 ? {justifyContent:'flex-start'} : null} className={classes.RightDiv}>
       <div className={classes.ImageWrapper}>
         <img src={props.src} alt={props.children[0]}/>
         </div>

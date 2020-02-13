@@ -61,5 +61,9 @@
         padding-bottom: 0;
     }
 
+    .ServiceChunk .RightDiv {
+        justify-content: center;
+    }
+
 }
 
