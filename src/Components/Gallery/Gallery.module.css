@@ -21,13 +21,7 @@
 
 .Wrapper {
   padding: 2em 15px;
-  background-color: rgba(179, 179, 179, 0.11);
-}
-
-.Wrapper h1{
-  padding-top: 0;
-  margin-top: 0;
-  font-weight: 600;
+  background-color: rgba(179, 179, 179, 0.301);
 }
 
 .ImageWrap p{
