@@ -24,8 +24,11 @@ let output = services.map((service,index) => {
 
 const gallery = () => {
   return (
+    <div className={classes.Wrapper}>
+    <h1>Our Services</h1>
       <div className={classes.Gallery}>
         {output}
+      </div>
       </div>
   );
 };
