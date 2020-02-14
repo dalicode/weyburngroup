@@ -30,7 +30,8 @@
 }
 
 .Home .ValuesSection {
-  padding: 5% 0;
+  padding: 5% 0em;
+  padding-right: 2em;
 }
 .Home .Button {
   margin-top: 30px;
