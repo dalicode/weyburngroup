@@ -27,23 +27,27 @@ const contact = () => {
           <form action="https://formspree.io/myywbdqz" method="POST">
             <p>Full Name</p>
             <input placeholder="John Smith" type="text" name="name" />
+            <span className={classes.focusBg}></span>
             <p>Email Address</p>
             <input
               placeholder="johnsmith@abc.com"
               type="text"
               name="_replyto"
             />
-            <p>Phone Number</p>
+            <p>Phone Number*</p>
             <NumberFormat
               placeholder="(123)-456-7890"
               format="(###) ###-####"
               mask="_"
+              name="phone"
+              required
             />
-            <p>Message</p>
+            <p>Message*</p>
             <textarea
               rows="4"
               placeholder="Start typing message here..."
               name="message"
+              required
             ></textarea>
             <button type="submit">Submit</button>
           </form>
