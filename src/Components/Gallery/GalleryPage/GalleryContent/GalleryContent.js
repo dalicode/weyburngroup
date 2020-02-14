@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import classes from "./GalleryContent.module.css";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Fade.css';
