@@ -40,6 +40,7 @@
     border: 1px solid rgba(128, 128, 128, 0.514);
     box-sizing: border-box;
     border-radius: 4px;
+    transition: all 0.5s;
 }
 
 .Contact input:focus::placeholder {
@@ -48,10 +49,12 @@
 
   .Contact input:focus {
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    border-color: #f6c348;
   }
 
-  .Contact textarea:focus {
+  .Contact .RightDiv textarea:focus {
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    border-color:  #f6c348;
   }
 
 .Contact textarea:focus::placeholder {
@@ -59,14 +62,14 @@
 }
 
 .Contact .RightDiv textarea {
-    border-radius: 5px;
+    border-radius: 4px;
     font-family: 'open sans';
     width: 100%;
     font-size: 1.2em;
-    padding: 7px;
-    display: block;
+    padding: 7px 16px;
     border: 1px solid rgba(128, 128, 128, 0.514);
     box-sizing: border-box;
+    transition: all 0.5s;
 }
 
 .Contact ::placeholder {
